@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 5px 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29F700 !important;
+}
+#navbarSupportedContent a{
+color: #fff;
+border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid #29F700 ;
+}
+#navbarSupportedContent button{
+    color: #fff;
+    background-color: #29F700;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/****home***/
+#home{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8) ),url(sp/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px opx #ccc,0px 1px opx #ccc,0px 
+    2px opx #ccc,0px 3px opx #ccc,0px 4px opx #ccc,0px 5px opx #ccc,0px 6px opx #ccc,0px 7px opx #ccc, ;
+}                 
+#home p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+#home .input-group{
+    width: 40%;
+    height: 45PX;
+
+}
+.singin {
+    background: green !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.5);
+}
+#about{
+    background: linear-gradient( rgba(0,0,0,.1),rgba(0,0,0,.2) )
+}
+#about img{ 
+    box-shadow: 2px 4px 5px rgba(0,0,0,.5);
+    margin-left:auto;
+} 
+
+
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+#about p{
+    color: #000;
+    text-align: justify;
+    text-indent: 5px;
+}
+/*********product****/
+
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+}
+##product img{
+    width: 200px;
+    height: 200px;
+    
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.3),inset -4px -4px 10px white;
+
+    
+}
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o{
+	color: #f44336;
+}
